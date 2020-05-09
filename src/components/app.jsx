@@ -35,7 +35,7 @@ class App extends Component {
       />
         <div className="map-container">
           <GoogleMapReact defaultCenter={this.center()} defaultZoom={12}>
-            <Marker lat={this.state.selectedFlat.lat} lng={this.state.selectedFlat.lng} />
+            <Marker lat={this.state.selectedBeach.lat} lng={this.state.selectedBeach.lng} />
           </GoogleMapReact>
         </div>
       </div>
