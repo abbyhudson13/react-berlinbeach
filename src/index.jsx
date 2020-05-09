@@ -5,7 +5,4 @@ import '../assets/stylesheets/application.scss';
 
 import App from './components/app';
 
-const root = document.getElementById('root');
-if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
-}
+ReactDOM.render(<App />, document.querySelector('#root'));
