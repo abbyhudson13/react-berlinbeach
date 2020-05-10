@@ -29,9 +29,9 @@ class App extends Component {
     return (
       <div>
       <BeachList
-        flats={this.state.flats}
-        selectedFlat={this.state.selectedFlat}
-        selectFlat={this.selectFlat}
+        beaches={this.state.beaches}
+        selectedBeach={this.state.selectedBeach}
+        selectBeach={this.selectBeach}
       />
         <div className="map-container">
           <GoogleMapReact defaultCenter={this.center()} defaultZoom={12}>
