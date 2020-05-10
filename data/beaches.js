@@ -4,8 +4,8 @@ const beaches = [
     imageUrl: "https://res.cloudinary.com/dqlvehu5z/image/upload/v1589017957/Berlin%20Beach/Wannsee_su1saw.jpg",
     price: 5.50,
     priceCurrency: "EUR per day",
-    lat: 48.884211,
-    lng: 2.34689
+    lat: 52.4151,
+    lng: 13.1469
   },
   {
     name: "Weißensee",

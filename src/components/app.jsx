@@ -41,7 +41,7 @@ class App extends Component {
             key: GOOGLE_API_KEY,
             language: 'en'
             }}
-          defaultCenter={this.center()} defaultZoom={12}>
+          defaultCenter={this.center()} defaultZoom={9}>
             <Marker lat={this.state.selectedBeach.lat} lng={this.state.selectedBeach.lng} />
           </GoogleMapReact>
         </div>
