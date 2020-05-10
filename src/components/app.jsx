@@ -5,6 +5,8 @@ import beaches from '../../data/beaches';
 import BeachList from './beach_list';
 import Marker from './marker';
 
+
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +36,12 @@ class App extends Component {
         selectBeach={this.selectBeach}
       />
         <div className="map-container">
-          <GoogleMapReact defaultCenter={this.center()} defaultZoom={12}>
+          <GoogleMapReact
+          bootstrapURLKeys={{
+            key: GOOGLE_API_KEY,
+            language: 'en'
+            }}
+          defaultCenter={this.center()} defaultZoom={12}>
             <Marker lat={this.state.selectedBeach.lat} lng={this.state.selectedBeach.lng} />
           </GoogleMapReact>
         </div>
