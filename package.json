@@ -35,6 +35,7 @@
     "strip-ansi": "^6.0.0"
   },
   "scripts": {
+    "start": "node index.jsx",
     "lint": "eslint './src/**/*.js*'",
     "deploy": "webpack -p && gh-pages -d dist",
     "heroku-prebuild": "npm install --dev"
