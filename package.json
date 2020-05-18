@@ -31,7 +31,8 @@
     "google-map-react": "^1.1.7",
     "punycode": "2.1.1",
     "react": "16.2",
-    "react-dom": "16.2"
+    "react-dom": "16.2",
+    "strip-ansi": "^6.0.0"
   },
   "scripts": {
     "lint": "eslint './src/**/*.js*'",
