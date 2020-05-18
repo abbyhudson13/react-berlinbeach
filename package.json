@@ -1,9 +1,8 @@
-
 {
   "license": "UNLICENSED",
   "engines": {
-  "node": "12.16.x"
-},
+    "node": "12.16.x"
+  },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
