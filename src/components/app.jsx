@@ -4,7 +4,6 @@ import GoogleMapReact from 'google-map-react';
 import beaches from '../../data/beaches';
 import BeachList from './beach_list';
 import Marker from './marker';
-const GOOGLE_API_KEY= 'AIzaSyAsEtjC6xsgZForMS_x0tsE7oG_XUUZRSY';
 
 
 
